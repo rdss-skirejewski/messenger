@@ -191,7 +191,7 @@ class WorkerTest extends TestCase
         // wait time should be .3 seconds
         // use .29 & .31 for timing "wiggle room"
         $this->assertGreaterThanOrEqual(.29, $duration);
-        $this->assertLessThan(.31, $duration);
+        $this->assertLessThan(.32, $duration);
     }
 
     public function testWorkerWithMultipleReceivers()
